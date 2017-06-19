@@ -1,0 +1,22 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\AttributeHelpers\MvxRecyclerViewAttributeExtensions.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/AttributeHelpers/MvxRecyclerViewAttributeExtensions.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\MvxGuardedLinearLayoutManager.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/MvxGuardedLinearLayoutManager.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\IMvxRecyclerAdapter.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/IMvxRecyclerAdapter.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\IMvxRecyclerAdapterBindableHolder.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/IMvxRecyclerAdapterBindableHolder.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\IMvxRecyclerViewHolder.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/IMvxRecyclerViewHolder.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\ItemTemplates\MvxTemplateSelector.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/ItemTemplates/MvxTemplateSelector.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\ItemTemplates\MvxDefaultTemplateSelector.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/ItemTemplates/MvxDefaultTemplateSelector.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\Model\MvxViewHolderBoundEventArgs.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/Model/MvxViewHolderBoundEventArgs.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\MvxRecyclerAdapter.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/MvxRecyclerAdapter.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\MvxRecyclerView.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/MvxRecyclerView.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\MvxRecyclerViewHolder.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/MvxRecyclerViewHolder.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\Properties\AssemblyInfo.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/Properties/AssemblyInfo.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\Resources\Resource.Designer.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/Resources/Resource.Designer.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.RecyclerView\ItemTemplates\IMvxTemplateSelector.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.RecyclerView/ItemTemplates/IMvxTemplateSelector.cs
+SRCSRV: end ------------------------------------------------

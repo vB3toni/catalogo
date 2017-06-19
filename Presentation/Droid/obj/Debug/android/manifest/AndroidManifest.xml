@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="MeusPedidos.Catalogo.Presentation.Droid" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+  <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+  <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+  <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="MeusPedidos Catalogo" android:icon="@drawable/icon" android:name="md5f3d72722a04f2d0ff5133f9d5589b30c.GlobalApplication" android:allowBackup="true" android:debuggable="true">
+    <service android:exported="true" android:name="md59e947013b368879c6e5c6378203f2e1b.AtualizacaoService">
+      <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter" />
+      <intent-filter>
+        <action android:name="android.content.SyncAdapter" />
+      </intent-filter>
+    </service>
+    <service android:name="md59e947013b368879c6e5c6378203f2e1b.AuthenticatorService">
+      <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+      <intent-filter>
+        <action android:name="android.accounts.AccountAuthenticator" />
+      </intent-filter>
+    </service>
+    <provider android:authorities="meuspedidos.catalogo.droid.service.provider" android:enabled="true" android:exported="true" android:label="StubProviderMeusPedidos" android:syncable="true" android:name="md59e947013b368879c6e5c6378203f2e1b.StubProvider" />
+    <activity android:label="Carrinho" android:theme="@style/AppTheme" android:name="md546f3dfcaeaa3c121b356f19fc3eea952.CarrinhoCompraActivity" />
+    <activity android:icon="@drawable/icon" android:label="Catálogo" android:theme="@style/AppTheme" android:name="md546f3dfcaeaa3c121b356f19fc3eea952.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="MeusPedidos.Catalogo.Presentation.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.MeusPedidos.Catalogo.Presentation.Droid" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+</manifest>

@@ -1,0 +1,33 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Resources\Resource.Designer.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Resources/Resource.Designer.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\EventSource\MvxEventSourceAppCompatDialogFragment.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/EventSource/MvxEventSourceAppCompatDialogFragment.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxActionBarDrawerToggle.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxActionBarDrawerToggle.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxAppCompatPropertyBinding.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxAppCompatPropertyBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxAppCompatActivity.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxAppCompatActivity.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxAppCompatActivityHelper.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxAppCompatActivityHelper.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxAppCompatPropertyBindingExtensions.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxAppCompatPropertyBindingExtensions.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxAppCompatSetupHelper.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxAppCompatSetupHelper.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\EventSource\MvxEventSourceAppCompatActivity.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/EventSource/MvxEventSourceAppCompatActivity.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxAppCompatDialogFragment.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxAppCompatDialogFragment.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxSplashScreenAppCompatActivity.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxSplashScreenAppCompatActivity.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Properties\AssemblyInfo.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Properties/AssemblyInfo.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxCachingFragmentCompatActivity.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxCachingFragmentCompatActivity.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Target\MvxAppCompatAutoCompleteTextViewPartialTextTargetBinding.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Target/MvxAppCompatAutoCompleteTextViewPartialTextTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Target\MvxAppCompatAutoCompleteTextViewSelectedObjectTargetBinding.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Target/MvxAppCompatAutoCompleteTextViewSelectedObjectTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Target\MvxAppCompatBaseImageViewTargetBinding.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Target/MvxAppCompatBaseImageViewTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Target\MvxAppCompatRadioGroupSelectedItemBinding.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Target/MvxAppCompatRadioGroupSelectedItemBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Target\MvxAppCompatSearchViewQueryTextTargetBinding.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Target/MvxAppCompatSearchViewQueryTextTargetBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Target\MvxAppCompatSpinnerSelectedItemBinding.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Target/MvxAppCompatSpinnerSelectedItemBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Target\MvxToolbarSubtitleBinding.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Target/MvxToolbarSubtitleBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Widget\MvxAppCompatAutoCompleteTextView.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Widget/MvxAppCompatAutoCompleteTextView.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Widget\MvxAppCompatImageView.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Widget/MvxAppCompatImageView.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Widget\MvxAppCompatRadioGroup.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Widget/MvxAppCompatRadioGroup.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\Widget\MvxAppCompatSpinner.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/Widget/MvxAppCompatSpinner.cs
+C:\vcs\git\MvvmCross\MvvmCross-AndroidSupport\MvvmCross.Droid.Support.V7.AppCompat\MvxAppCompatSetup.cs*MvvmCross-AndroidSupport/MvvmCross.Droid.Support.V7.AppCompat/MvxAppCompatSetup.cs
+SRCSRV: end ------------------------------------------------

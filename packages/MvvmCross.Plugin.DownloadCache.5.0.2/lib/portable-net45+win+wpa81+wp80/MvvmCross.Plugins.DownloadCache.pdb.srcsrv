@@ -1,0 +1,22 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\IMvxFileDownloadCache.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/IMvxFileDownloadCache.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\IMvxHttpFileDownloader.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/IMvxHttpFileDownloader.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\IMvxImageCache.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/IMvxImageCache.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\IMvxLocalFileImageLoader.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/IMvxLocalFileImageLoader.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\MvxDynamicImageHelper.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/MvxDynamicImageHelper.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\MvxFileDownloadCache.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/MvxFileDownloadCache.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\MvxFileDownloadedEventArgs.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/MvxFileDownloadedEventArgs.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\MvxFileDownloadRequest.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/MvxFileDownloadRequest.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\MvxFileStoreHelper.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/MvxFileStoreHelper.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\MvxHttpFileDownloader.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/MvxHttpFileDownloader.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\MvxImage.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/MvxImage.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\MvxImageCache.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/MvxImageCache.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\PluginLoader.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/PluginLoader.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\DownloadCache\MvvmCross.Plugins.DownloadCache\Properties\AssemblyInfo.cs*MvvmCross-Plugins/DownloadCache/MvvmCross.Plugins.DownloadCache/Properties/AssemblyInfo.cs
+SRCSRV: end ------------------------------------------------

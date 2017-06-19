@@ -1,0 +1,14 @@
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\MeusPedidos.Catalogo.Core.Data.dll.config
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\MeusPedidos.Catalogo.Core.Data.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\MeusPedidos.Catalogo.Core.Data.pdb
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\MeusPedidos.Catalogo.Core.Domain.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\SQLite.Net.Async.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\SQLite.Net.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\SQLite.Net.Platform.Generic.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\SQLite.Net.Platform.Win32.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\MeusPedidos.Catalogo.Core.Domain.pdb
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\obj\Debug\MeusPedidos.Catalogo.Core.Data.csprojResolveAssemblyReference.cache
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\obj\Debug\MeusPedidos.Catalogo.Core.Data.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Data\obj\Debug\MeusPedidos.Catalogo.Core.Data.pdb

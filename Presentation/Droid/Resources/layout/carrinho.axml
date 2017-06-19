@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              >
+    <Mvx.MvxListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="ItemsSource ListaCarrinho;"
+        local:MvxItemTemplate="@layout/carrinho_itens"
+        android:background="@color/filter_background"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/margin_default_medium"
+        android:layout_marginBottom="@dimen/margin_default_medium"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin_default_medium"
+        android:layout_marginRight="@dimen/margin_default_medium"
+        android:layout_marginTop="@dimen/margin_default_medium"
+        android:layout_marginBottom="@dimen/margin_default_medium"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            local:MvxBind="Text QtdeTotalItens"
+            android:layout_marginTop="@dimen/margin_line_extra_small"
+            android:textColor="@color/text_gray" />
+        <View
+            style="@style/DefaultLine"
+            android:layout_marginTop="@dimen/margin_line_extra_small"
+            android:layout_marginBottom="@dimen/margin_line_extra_small" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/total"
+                android:layout_weight="1"
+                android:textColor="@color/text_gray" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                local:MvxBind="Text ValorTotalPedido"
+                android:layout_weight="1"
+                android:textColor="@color/text_color_primary"
+                android:textStyle="bold"
+                android:textSize="@dimen/material_string_title" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_background"
+        android:layout_marginLeft="@dimen/margin_default_large_card"
+        android:layout_marginRight="@dimen/margin_default_large_card"
+        android:layout_marginBottom="@dimen/margin_line_extra_small"
+        android:layout_gravity="bottom"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/material_string_title"
+            android:padding="@dimen/margin_default_medium"
+            android:textColor="@color/text_color_primary"
+            android:textAlignment="center"
+            android:text="@string/finalizarcompra"
+            android:id="@+id/textView1"
+            local:MvxBind="Click FinalizarCompra" />
+    </LinearLayout>
+</LinearLayout>

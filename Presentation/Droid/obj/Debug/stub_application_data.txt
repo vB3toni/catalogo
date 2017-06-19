@@ -1,0 +1,2 @@
+android.app.Application
+MeusPedidos.Catalogo.Presentation.Droid

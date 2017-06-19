@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background">
+  <android.support.v7.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/cardview_light_background"
+      android:orientation="horizontal"
+      android:weightSum="3"
+      local:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/card_itens_llimagem"
+        android:background="@color/cardview_light_background">
+      <MvxImageView
+          android:layout_width="@dimen/image_view_width"
+          android:layout_height="@dimen/image_view_height"
+          android:id="@+id/card_itens_ivproduto"
+          android:adjustViewBounds="true"
+          android:scaleType="centerCrop"
+          local:MvxBind="ImageUrl FotoProduto"
+          android:layout_gravity="center"
+          android:minWidth="@dimen/image_view_min_width"
+          android:minHeight="@dimen/image_view_min_height" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/cardview_light_background"
+        android:id="@+id/card_itens_lldados"
+        android:layout_gravity="right"
+        android:layout_marginLeft="@dimen/image_view_width">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_weight="1"
+          android:id="@+id/card_itens_ll_nome_favorito">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            local:MvxBind="Text NomeProduto;"
+            android:textColor="@color/foreground_material_light"
+            android:layout_marginLeft="@dimen/margin_default_small" />
+        <ImageView
+            android:layout_height="@dimen/margin_default_medium"
+            android:layout_width="@dimen/margin_default_medium"
+            android:id="@+id/card_itens_ivfavorito"
+            local:MvxBind="Click ItensPedidoToMessage('Favorito', .); DrawableName DrawableFavorito"
+            android:layout_marginRight="@dimen/margin_default_small" />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:id="@+id/linearLayout2"
+          android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/margin_default_small"
+            android:layout_marginTop="@dimen/padding_default_extra_small">
+          <LinearLayout
+              android:id="@+id/card_itens_llpromocao"
+              android:background="@drawable/border_promocao"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              local:MvxBind="Visible PossuiPromocaoAtiva">
+            <ImageView
+                android:id="@+id/card_itens_ivpromocao"
+                android:layout_height="@dimen/margin_default_medium"
+                android:layout_width="@dimen/margin_default_medium"
+                android:src="@drawable/ic_indicador_promocao"
+                android:layout_gravity="center"
+                android:padding="@dimen/padding_default_extra_small"
+                android:paddingLeft="@dimen/padding_default_extra_small"
+                android:layout_marginLeft="@dimen/padding_default_extra_small" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                local:MvxBind="Text DescontoFormatado;"
+                android:textSize="@dimen/material_string_caption_small"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/margin_line_extra_small" />
+          </LinearLayout>
+          <TextView
+              android:id="@+id/card_itens_tvPreco"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              local:MvxBind="Text PrecoVendaFormatado;"
+              android:textSize="@dimen/material_string_body1"
+              android:textStyle="bold"
+              android:textColor="@color/foreground_material_light"
+              android:layout_weight="1"
+              android:layout_gravity="center"
+              android:gravity="center_vertical" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/linearLayout3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/padding_default_extra_small">
+          <LinearLayout
+              android:id="@+id/linearLayout5"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:layout_weight="1">
+            <TextView
+                android:id="@+id/card_itens_tvQuantidade"
+                android:textSize="@dimen/material_string_body1"
+                android:textStyle="bold"
+                local:MvxBind="Text QtdeVenda;"
+                android:textColor="@color/foreground_material_light"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/card_itens_tvunidade"
+                android:text="UN"
+                android:textSize="@dimen/material_string_caption_small"
+                android:textStyle="bold"
+                android:textColor="@color/text_gray"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_line_extra_small" />
+          </LinearLayout>
+          <LinearLayout
+              android:id="@+id/linearLayout5"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:layout_marginRight="@dimen/margin_default_small"
+              android:layout_marginBottom="@dimen/padding_default_extra_small">
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bt_remover"
+                android:src="@drawable/ic_remover"
+                android:id="@+id/imageButton1"
+                android:layout_marginRight="@dimen/margin_line_extra_small"
+                android:layout_weight="1"
+                local:MvxBind="Click ItensPedidoToMessage('Retirar', .);"/>
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bt_adicionar"
+                android:src="@drawable/ic_adicionar"
+                android:id="@+id/imageButton2"
+                android:layout_weight="1"
+              local:MvxBind="Click ItensPedidoToMessage('Adicionar', .);"/>
+          </LinearLayout>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </android.support.v7.widget.CardView>
+</LinearLayout>

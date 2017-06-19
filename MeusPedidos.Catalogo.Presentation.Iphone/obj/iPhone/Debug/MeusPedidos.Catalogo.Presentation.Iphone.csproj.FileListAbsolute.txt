@@ -1,0 +1,9 @@
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\bin\iPhone\Debug\MeusPedidos.Catalogo.Presentation.Iphone.exe
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\bin\iPhone\Debug\MeusPedidos.Catalogo.Presentation.Iphone.pdb
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\obj\iPhone\Debug\optimized\
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\obj\iPhone\Debug\MeusPedidos.Catalogo.Presentation.Iphone.csprojResolveAssemblyReference.cache
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\obj\iPhone\Debug\MeusPedidos.Catalogo.Presentation.Iphone.exe
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\MeusPedidos.Catalogo.Presentation.Iphone\obj\iPhone\Debug\MeusPedidos.Catalogo.Presentation.Iphone.pdb

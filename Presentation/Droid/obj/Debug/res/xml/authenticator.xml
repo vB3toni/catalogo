@@ -1,0 +1,1 @@
+<account-authenticator android:accountType="meuspedidos.catalogo.droid" android:icon="@drawable/icon" android:smallIcon="@drawable/icon" android:label="@string/ApplicationName" xmlns:android="http://schemas.android.com/apk/res/android" />

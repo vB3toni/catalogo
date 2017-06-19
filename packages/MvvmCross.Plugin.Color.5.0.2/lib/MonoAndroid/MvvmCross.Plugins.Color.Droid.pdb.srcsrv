@@ -1,0 +1,18 @@
+SRCSRV: ini ------------------------------------------------
+VERSION=2
+SRCSRV: variables ------------------------------------------
+RAWURL=https://raw.github.com/mvvmcross/mvvmcross/da7667fb97fa392ab80ebd1264acbb10636ef731/%var2%
+SRCSRVVERCTRL=https
+SRCSRVTRG=%RAWURL%
+SRCSRV: source files ---------------------------------------
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\BindingTargets\MvxDefaultColorBindingSet.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/BindingTargets/MvxDefaultColorBindingSet.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\Binding\MvxAndroidColorPropertyBinding.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/Binding/MvxAndroidColorPropertyBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\Binding\MvxAndroidColorPropertyBindingExtensions.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/Binding/MvxAndroidColorPropertyBindingExtensions.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\MvxAndroidColor.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/MvxAndroidColor.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\BindingTargets\MvxViewColorBinding.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/BindingTargets/MvxViewColorBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\MvxColorExtensions.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/MvxColorExtensions.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\BindingTargets\MvxTextViewTextColorBinding.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/BindingTargets/MvxTextViewTextColorBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\BindingTargets\MvxViewBackgroundColorBinding.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/BindingTargets/MvxViewBackgroundColorBinding.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\Plugin.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/Plugin.cs
+C:\vcs\git\MvvmCross\MvvmCross-Plugins\Color\MvvmCross.Plugins.Color.Droid\Properties\AssemblyInfo.cs*MvvmCross-Plugins/Color/MvvmCross.Plugins.Color.Droid/Properties/AssemblyInfo.cs
+SRCSRV: end ------------------------------------------------

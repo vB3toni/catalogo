@@ -1,0 +1,1 @@
+<sync-adapter android:contentAuthority="meuspedidos.catalogo.droid.service.provider" android:accountType="meuspedidos.catalogo.droid" android:userVisible="false" android:supportsUploading="true" android:allowParallelSyncs="true" android:isAlwaysSyncable="true" xmlns:android="http://schemas.android.com/apk/res/android" />

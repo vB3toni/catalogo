@@ -1,0 +1,10 @@
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\bin\Debug\MeusPedidos.Catalogo.Core.Domain.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\bin\Debug\MeusPedidos.Catalogo.Core.Domain.pdb
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\bin\Debug\SQLite.Net.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\bin\Debug\SQLite.Net.Platform.Generic.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\bin\Debug\SQLite.Net.Platform.Win32.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\bin\Debug\SQLiteNetExtensions.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\obj\Debug\MeusPedidos.Catalogo.Core.Domain.dll
+D:\Projetos\MeusPedidos\MeusPedidos.Catalogo\Core\Domain\obj\Debug\MeusPedidos.Catalogo.Core.Domain.pdb
